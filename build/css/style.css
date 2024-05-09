@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: #333;
+  display: grid;
+  place-content: center;
+}
+
+.main {
+  width: 300px;
+  height: 300px;
+  background-color: papayawhip;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 22px 4px white;
+  outline: 2px solid hsl(0, 0%, 50%);
+}
+
+#digital {
+  position: absolute;
+  top: 80px;
+  height: 30px;
+  width: 120px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#day {
+  position: absolute;
+  bottom: 80px;
+  height: 30px;
+  width: 120px;
+  background-color: white;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#hour {
+  display: block;
+  width: 160px;
+  height: 8px;
+  background: linear-gradient(90deg, transparent 50%, #222 50%);
+  position: absolute;
+  border-radius: 5px;
+}
+
+#min {
+  width: 220px;
+  height: 6px;
+  background: linear-gradient(90deg, transparent 50%, #444 50%);
+  position: absolute;
+  border-radius: 5px;
+}
+
+#sec {
+  width: 280px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent 50%, orangered 50%);
+  position: absolute;
+  border-radius: 5px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #555;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#h1 {
+  position: absolute;
+  font-size: 30px;
+  top: 22.5px;
+  right: 80px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h2 {
+  position: absolute;
+  font-size: 30px;
+  top: 68.5px;
+  right: 33.5px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h3 {
+  position: absolute;
+  font-size: 30px;
+  right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h4 {
+  position: absolute;
+  font-size: 30px;
+  bottom: 68.5px;
+  right: 33.5px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h5 {
+  position: absolute;
+  font-size: 30px;
+  bottom: 22.5px;
+  right: 80px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h6 {
+  position: absolute;
+  font-size: 30px;
+  bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h7 {
+  position: absolute;
+  font-size: 30px;
+  bottom: 22.5px;
+  left: 80px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h8 {
+  position: absolute;
+  font-size: 30px;
+  bottom: 68.5px;
+  left: 33.5px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h9 {
+  position: absolute;
+  font-size: 30px;
+  left: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h10 {
+  position: absolute;
+  font-size: 30px;
+  top: 68.5px;
+  left: 33.5px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h11 {
+  position: absolute;
+  font-size: 30px;
+  top: 22.5px;
+  left: 80px;
+  font-weight: bold;
+  color: #333;
+}
+
+#h12 {
+  position: absolute;
+  font-size: 30px;
+  top: 10px;
+  font-weight: bold;
+  color: #333;
+}
